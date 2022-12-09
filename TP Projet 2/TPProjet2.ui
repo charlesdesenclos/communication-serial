@@ -151,6 +151,22 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>TPProjet2Class</receiver>
+   <slot>onSendMessageButtonClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>387</x>
+     <y>354</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>266</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>onOpenPortButtonClicked()</slot>

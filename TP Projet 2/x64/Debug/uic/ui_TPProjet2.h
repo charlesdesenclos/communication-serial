@@ -85,6 +85,7 @@ public:
 
         retranslateUi(TPProjet2Class);
         QObject::connect(ouvrirport, SIGNAL(clicked()), TPProjet2Class, SLOT(onOpenPortButtonClicked()));
+        QObject::connect(pushButton, SIGNAL(clicked()), TPProjet2Class, SLOT(onSendMessageButtonClicked()));
 
         QMetaObject::connectSlotsByName(TPProjet2Class);
     } // setupUi
